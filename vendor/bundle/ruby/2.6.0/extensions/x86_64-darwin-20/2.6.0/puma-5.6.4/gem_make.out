@@ -1,5 +1,5 @@
 current directory: /Users/shiomitomoaki/MyStudy/girls/girls/vendor/bundle/ruby/2.6.0/gems/puma-5.6.4/ext/puma_http11
-/Users/shiomitomoaki/.anyenv/envs/rbenv/versions/2.6.3/bin/ruby -I /Users/shiomitomoaki/.anyenv/envs/rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20220528-82455-1q8mr7i.rb extconf.rb --with-cflags\=-Wno-error\=implicit-function-declaration
+/Users/shiomitomoaki/.anyenv/envs/rbenv/versions/2.6.3/bin/ruby -I /Users/shiomitomoaki/.anyenv/envs/rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20220528-88105-yf1txe.rb extconf.rb --with-cflags\=-Wno-error\=implicit-function-declaration
 checking for BIO_read() in -lcrypto... yes
 checking for SSL_CTX_new() in -lssl... yes
 checking for openssl/bio.h... yes
@@ -24,4 +24,4 @@ linking shared-object puma/puma_http11.bundle
 
 current directory: /Users/shiomitomoaki/MyStudy/girls/girls/vendor/bundle/ruby/2.6.0/gems/puma-5.6.4/ext/puma_http11
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20220528-82455-1lk0l12/puma
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20220528-88105-tc34y6/puma

@@ -1,5 +1,5 @@
 current directory: /Users/shiomitomoaki/MyStudy/girls/girls/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.4/ext/mysql2
-/Users/shiomitomoaki/.anyenv/envs/rbenv/versions/2.6.3/bin/ruby -I /Users/shiomitomoaki/.anyenv/envs/rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20220528-82455-ty4ym1.rb extconf.rb
+/Users/shiomitomoaki/.anyenv/envs/rbenv/versions/2.6.3/bin/ruby -I /Users/shiomitomoaki/.anyenv/envs/rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20220528-88105-1w8aa3a.rb extconf.rb
 /usr/local/bin/brew
 checking for rb_absint_size()... yes
 checking for rb_absint_singlebit_p()... yes
@@ -48,4 +48,4 @@ linking shared-object mysql2/mysql2.bundle
 
 current directory: /Users/shiomitomoaki/MyStudy/girls/girls/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.4/ext/mysql2
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 mysql2.bundle ./.gem.20220528-82455-1ywfigz/mysql2
+/usr/bin/install -c -m 0755 mysql2.bundle ./.gem.20220528-88105-1bye3tk/mysql2
