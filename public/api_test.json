@@ -1,0 +1,137 @@
+{
+  "version": 6,
+  "entities": [
+    {
+      "entity": {
+        "type": "Project",
+        "id": "b7f29087-3c97-41ee-9c64-ef27c7772f4a",
+        "name": "scraping_girl_v2"
+      },
+      "children": [
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": [
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "name",
+                    "value": "テスト"
+                  },
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "age",
+                    "value": "22"
+                  },
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "reserved_rate",
+                    "value": "90"
+                  }
+                ]
+              },
+              "bodyType": "Form",
+              "textBody": "{\n  name: 'テスト',\n  age: 22,\n  reserved_rate: 90\n}"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "name": "http",
+                "version": "V11"
+              },
+              "host": "localhost:3000",
+              "path": "/api/v1/girls"
+            },
+            "id": "4bd93fa9-8e0b-415a-a750-c65d95320fee",
+            "name": "Request 3",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+              "name": "GET"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "name": "http",
+                "version": "V11"
+              },
+              "host": "localhost:3000",
+              "path": "/api/v1/rankers"
+            },
+            "id": "6623ba85-16f5-4027-b141-ca12660cf32a",
+            "name": "ランキング",
+            "headers": []
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+              "name": "GET"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "name": "http",
+                "version": "V11"
+              },
+              "host": "localhost:3000",
+              "path": "/api/v1/girls"
+            },
+            "id": "4b8946a8-359f-4b3e-8d4a-50e6390bc9af",
+            "name": "一覧",
+            "headers": []
+          }
+        }
+      ]
+    }
+  ]
+}
